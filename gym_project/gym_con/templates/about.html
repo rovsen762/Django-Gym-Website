@@ -1,0 +1,97 @@
+{% extends 'partials/_base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg" data-setbg="{% static 'img/breadcrumb/classes-breadcrumb.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>About</h2>
+                        <div class="breadcrumb-option">
+                            <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- About Section Begin -->
+    <section class="about-section about-page spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <img src="{% static 'img/about-pic.jpg' %}" alt="">
+                        <a href="https://www.youtube.com/watch?v=SlPhMPnQ58k" class="play-btn video-popup">
+                            <img src="{% static 'img/play.png' %}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h2>Story About Us</h2>
+                        <p class="first-para">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium
+                            sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate
+                            cursus a amet.</p>
+                        <p class="second-para">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida
+                            quam semper libero sit amet.</p>
+                        <img src="{% static 'img/about-signature.png' %}" alt="">
+                        <div class="at-author">
+                            <h4>Lettie Chavez</h4>
+                            <span>CEO - Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Gym Award Section Begin -->
+    <section class="gym-award spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="award-text">
+                        <h2>Best gym award</h2>
+                        <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium sollicitudin,
+                            nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a
+                            amet.</p>
+                        <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam semper libero
+                            sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam
+                            semper libero sit amet.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="{% static 'img/award.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gym Award Section End -->
+
+    <!-- Banner Section Begin -->
+    <section class="banner-section set-bg" data-setbg="{% static 'img/banner-bg.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-text">
+                        <h2>Get training today</h2>
+                        <p>Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry’s standard.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+{% endblock %}
